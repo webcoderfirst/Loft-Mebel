@@ -1,0 +1,247 @@
+/* Roboto */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Playfair Display */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+/* Robot Condensed */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
+
+/* ==== Header Part ==== */
+
+header .contact ul {
+    padding: 0 !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+header .contact ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+header .contact ul li a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+
+
+/* ==== Navbar Part ==== */
+
+.nav form {
+    position: relative;
+}
+.nav form i {
+    position: absolute;
+    left: 13px;
+    top: 7px;
+}
+
+.nav form i:hover {
+    color: #0000ff;
+}
+
+.nav  .icons i {
+    font-size: 18px;
+}
+
+.nav .bd {
+    right: -2px;
+    top: 5px;
+}
+
+
+
+/* ==== Category Part ==== */
+
+.category a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #414141;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
+/* ==== Carousel ==== */
+
+.carousel-content .text-box {
+    left: 10%;
+}
+
+.carousel-content .text-box h1 {
+    font-family: 'Playfair Display', serif;
+    color: #3C3C3C;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.carousel-content .text-box p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #343434;
+    font-size: 16px;
+}
+
+.carousel-content .text-box .btn {
+    font-family: 'Roboto', sans-serif;    
+    font-weight: 700;
+    color: #414141;
+    font-size: 12px;
+    border-radius: 0;
+}
+
+
+
+/* ==== Main Part ==== */
+
+main .container .col .card img {
+    width: 200px;
+    height: 150px;
+    margin: 74px 0 50px;
+}
+
+main .container .div {
+    height: 54px;
+    top: 0;
+    left: 0;
+}
+
+main .container .div p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+main .row .col {
+    width: 23%;
+}
+
+main .row .col .card {
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+main .row .col .card:hover {
+    transform: scale(101%);
+    box-shadow:0 .125rem .25rem rgba(0,0,0,.075)!important;
+    z-index: 1000;
+    transition: all 0.3s linear;
+}
+
+main .container .row .col .card i {
+    top: 21px;
+    right: 30px;
+}
+
+main .container .row .col .bag {
+    display: none;
+    background-color: #fff;
+    top: 100%;
+}
+
+main .row .col .card:hover .bag {
+    display: block;
+    box-shadow:0 .125rem .25rem rgba(0,0,0,.075)!important;
+    transition: all 0.3s linear;
+}
+
+main .container .row .col .bag .btn {
+    background-color: #245462;
+    border-radius: 0;
+    border: 0.5px solid;
+}
+
+main .container .row .col .bag .btn span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: #fff;
+}
+
+main .container .row .col .bag .header p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color: #414141;
+}
+
+main .container -row .col .bag .bag-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    line-height: 11px;
+    color: #414141;
+    padding: 16px 0;
+    width: 195px;
+}
+
+main .container .row .col .bag .bag-content span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+main .container .row .col .bag .bag-content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 11px;
+    color: #C4C4C4;
+}
+
+main .container .row .col .div2 {
+    top: 21px;
+    left: 30px;
+}
+
+main .container .row .col .div2 img {
+    width: 27px;
+    height: 27px;
+}
+
+main .container .row .col .div2 span {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+main .container .row .col .card-body h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #414141;
+}
+
+main .container .row .col .card-body p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 5px;
+    color: #414141;
+    padding-bottom: 0 !important;
+}
+
+main .container .row .col .card-body span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+
+
+<div class="div2 position-absolute d-flex align-content-center"><img src="img/Vector.png"
+                        class=" d-flex align-items-center" alt=""><span class="d-flex align-items-center"> -25%</span>
