@@ -35,6 +35,10 @@ header .contact ul li a {
 
 /* ==== Navbar Part ==== */
 
+nav img {
+    cursor: pointer;
+}
+
 .nav form {
     position: relative;
 }
